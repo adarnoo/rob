@@ -52,7 +52,7 @@ a:visited {
 .slideshow-container {
   position: fixed;
   width: 100%;
-  top: 0%;
+  top: 5%;
   cursor: pointer;
 }
 
@@ -82,13 +82,13 @@ a:visited {
   }
 
   .rt-main-container--first {
-    left: 3%;
-    top: 1%;
+    left: 5%;
+    top: 3%;
   }
 
   .rt-main-container--second {
-    left: 3%;
-    top: 5%;
+    left: 5%;
+    top: 8%;
   }
 
   .rt-main-container--third {
