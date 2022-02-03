@@ -67,6 +67,15 @@ a:visited {
   length: 100%;
 }
 
+.rt-white-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: red;
+  z-index: 99;
+}
+
 /* Mobile View */
 
 @media only screen and (min-device-width: 320px) and
