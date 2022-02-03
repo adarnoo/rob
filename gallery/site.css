@@ -110,6 +110,10 @@ a:visited {
   float: left;
 }
 
+.rt-image--bottom {
+  margin: 0 0 10% 0;
+}
+
 .rt-image-container--mobile {
   display: none;
 }
@@ -163,6 +167,10 @@ a:visited {
 
   .rt-image-container--second-mobile {
     left: 55%;
+  }
+
+  .rt-image--bottom--mobile {
+    margin: 0 0 20% 0;
   }
 
 }
