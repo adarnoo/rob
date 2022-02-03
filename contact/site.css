@@ -21,7 +21,9 @@ a:visited {
   color: black;
 }
 
-a:
+a:hover {
+  text-decoration: underline;
+}
 
 .rt-page {
   width: 100%;
