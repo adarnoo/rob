@@ -109,3 +109,60 @@ a:visited {
   padding: 1%;
   float: left;
 }
+
+.rt-image-container--mobile {
+  display: none;
+}
+
+/* Mobile View */
+
+@media only screen and (min-device-width: 320px) and
+(max-device-width: 480px) and
+(-webkit-min-device-pixel-ratio: 2) {
+
+  .rt-main-container {
+    position: fixed;
+    width: 50%;
+    top: 1%;
+    z-index: 5;
+    font-size: 4vw;
+  }
+
+  .rt-image-container {
+    display: none;
+  }
+
+  .rt-main-container--first {
+    left: 5%;
+    top: 3%;
+  }
+
+  .rt-main-container--second {
+    left: 5%;
+    top: 8%;
+  }
+
+  .rt-main-container--third {
+    display: none;
+  }
+
+  .rt-main-container--fourth {
+    display: none;
+  }
+
+  .rt-image-container--mobile {
+    display: block;
+    position: absolute;
+    width: 40%;
+    top: 20%;
+  }
+
+  .rt-image-container--first-mobile {
+    left: 5%;
+  }
+
+  .rt-image-container--second-mobile {
+    left: 55%;
+  }
+
+}
