@@ -134,6 +134,7 @@ a:visited {
   height: 100%;
   overflow: auto;
   background-color: white;
+  cursor: pointer;
 }
 
 .modal-content {
