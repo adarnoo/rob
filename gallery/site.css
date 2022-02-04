@@ -13,7 +13,6 @@ image {
 }
 
 a {
-  text-decoration: none;
   color: black;
 }
 
@@ -141,8 +140,8 @@ a:visited {
 .modal-content {
   margin: auto;
   display: block;
-  width: 30%;
-  max-width: 700px;
+  max-height: 70%;
+  max-width: 80%;
 }
 
 .modal-content,
