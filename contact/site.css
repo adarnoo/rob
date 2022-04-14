@@ -37,20 +37,24 @@ a:visited {
   z-index: 5;
 }
 
+.rt-main-container--text {
+  padding: 1%;
+}
+
 .rt-main-container--first {
   left: 1%;
 }
 
 .rt-main-container--second {
-  left: 25%;
+  left: 26%;
 }
 
 .rt-main-container--third {
-  left: 50%;
+  left: 51%;
 }
 
 .rt-main-container--fourth {
-  left: 75%;
+  left: 76%;
 }
 
 .rt-contact-text {
