@@ -32,9 +32,13 @@ a:visited {
 
 .rt-main-container {
   position: fixed;
-  width: 25%;
+  width: 24%;
   top: 1%;
   z-index: 5;
+}
+
+.rt-main-container--text {
+  padding: 1%;
 }
 
 .rt-main-container--first {
@@ -42,21 +46,21 @@ a:visited {
 }
 
 .rt-main-container--second {
-  left: 25%;
+  left: 26%;
 }
 
 .rt-main-container--third {
-  left: 50%;
+  left: 51%;
 }
 
 .rt-main-container--fourth {
-  left: 75%;
+  left: 76%;
 }
 
 .rt-image-container {
   position: absolute;
   width: 23%;
-  top: 10%;
+  padding-top: 100px;
 }
 
 .rt-image-container--first {
@@ -64,15 +68,15 @@ a:visited {
 }
 
 .rt-image-container--second {
-  left: 25%;
+  left: 26%;
 }
 
 .rt-image-container--third {
-  left: 50%;
+  left: 51%;
 }
 
 .rt-image-container--fourth {
-  left: 75%;
+  left: 76%;
 }
 
 .rt-image {
