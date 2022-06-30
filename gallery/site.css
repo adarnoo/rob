@@ -126,6 +126,8 @@ a:visited {
 #myImg {
   cursor: pointer;
   transition: 0.3s;
+  animation-name: delay;
+  animation-duration: 2s;
 }
 
 .modal {
@@ -165,6 +167,15 @@ a:visited {
   text-align: center;
   font-family: courier;
   font-size: 1vw;
+}
+
+@keyframes delay {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%:
+  }
 }
 
 /* Mobile View */
